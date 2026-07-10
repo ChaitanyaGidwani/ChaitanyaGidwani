@@ -8,12 +8,11 @@
 <div align="center">
 
 <a href="https://github.com/ChaitanyaGidwani">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3200&pause=900&color=6366F1&center=true&vCenter=true&width=720&lines=Hi+there%2C+I'm+Chaitanya+Gidwani+%F0%9F%91%8B;Web+Developer+%E2%80%A2+Builder+%E2%80%A2+Researcher;Turning+ideas+into+shipping+products." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3200&pause=900&color=6366F1&center=true&vCenter=true&width=780&lines=Hi%2C+I'm+Chaitanya+Gidwani+%F0%9F%91%8B;AI+%26+Full-Stack+Engineer;I+build+multi-agent+systems+%26+LLM+products;From+aggregation+pipelines+to+shipping+apps." alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- Social / identity badges -->
 <a href="https://www.linkedin.com/in/chaitanya-gidwani">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
@@ -31,55 +30,108 @@
 ## 🧭 About Me
 
 ```yaml
-name:       Chaitanya Gidwani
-role:       Web Developer & Builder
-focus:      Full-stack web apps — admin portals, platforms & tools
-philosophy: Ship real things, iterate in public, help others merge.
-open_to:    Collaboration • Open source • Interesting problems
+name:      Chaitanya Gidwani
+role:      AI & Full-Stack Engineer
+building:  LLM-powered products, multi-agent systems & data pipelines
+stack:     Next.js · React · TypeScript · Python · FastAPI · Solidity · LLMs
+mindset:   Ship real, production-shaped software — then iterate in public.
 ```
 
-- 🌐 I build **real-world web applications** — from admin portals to event and legal platforms.
-- 🔬 Researcher at heart — indexed on [ORCID](https://orcid.org/0009-0005-7429-611X), where engineering meets rigor.
-- 🤝 **Pair Extraordinaire** & **Pull Shark** — I like collaborating and shipping code that gets merged.
-- 🌱 Always leveling up — currently deepening my full-stack and systems skills.
-- 💬 Ask me about web development, building products, or turning a rough idea into something live.
-
-<!-- ===================== TECH STACK ===================== -->
-## 🛠️ Tech Stack
-
-<div align="center">
-
-<!-- Edit this list to match exactly what you use -->
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-</div>
+- 🤖 I build **AI systems that actually ship** — multi-agent orchestrators, dual-LLM pipelines with automatic failover, and live data aggregation across 14+ sources.
+- ⛓️ I take products **on-chain** too — Solidity smart contracts (Hardhat + OpenZeppelin) for funding gates and settlement, deployed to EVM testnets.
+- 🧩 Comfortable end-to-end: **Next.js/React** on the front, **Python/FastAPI** on the back, **Firebase/SQL + Docker** underneath.
+- 🔬 Researcher's rigor, builder's speed — indexed on [ORCID](https://orcid.org/0009-0005-7429-611X), obsessed with transparent, explainable systems.
+- 🤝 **Pull Shark** & **Pair Extraordinaire** — I collaborate, review, and get code merged.
+- 💬 Ask me about LLM orchestration, agent architectures, or turning a rough idea into a live product.
 
 <!-- ===================== FEATURED PROJECTS ===================== -->
 ## 🚀 Featured Projects
 
 <div align="center">
 
+<a href="https://github.com/ChaitanyaGidwani/opportunity-radar">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ChaitanyaGidwani&repo=opportunity-radar&theme=tokyonight&hide_border=true" alt="opportunity-radar" />
+</a>
+<a href="https://github.com/ChaitanyaGidwani/MarketMind">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ChaitanyaGidwani&repo=MarketMind&theme=tokyonight&hide_border=true" alt="MarketMind" />
+</a>
+<a href="https://github.com/ChaitanyaGidwani/Retina-AI">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ChaitanyaGidwani&repo=Retina-AI&theme=tokyonight&hide_border=true" alt="Retina-AI" />
+</a>
 <a href="https://github.com/ChaitanyaGidwani/NCCR-Admin-Portal">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ChaitanyaGidwani&repo=NCCR-Admin-Portal&theme=tokyonight&hide_border=true" alt="NCCR-Admin-Portal" />
-</a>
-<a href="https://github.com/ChaitanyaGidwani/TheNimantran.com">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ChaitanyaGidwani&repo=TheNimantran.com&theme=tokyonight&hide_border=true" alt="TheNimantran.com" />
 </a>
 
 </div>
 
-| Project | What it is |
-| :--- | :--- |
-| **[NCCR-Admin-Portal](https://github.com/ChaitanyaGidwani/NCCR-Admin-Portal)** | An admin portal for managing operations — my most-starred project. |
-| **[TheNimantran.com](https://github.com/ChaitanyaGidwani/TheNimantran.com)** | A digital invitation platform built in JavaScript. |
-| **[LawMat](https://github.com/ChaitanyaGidwani/LawMat)** | A legal-services website — collaborative build. |
+### 🛰️ [Opportunity Radar (Argus)](https://github.com/ChaitanyaGidwani/opportunity-radar) &nbsp;·&nbsp; [Live Demo ↗](https://opportunity-radar-theta.vercel.app)
+
+An AI-powered platform that aggregates internships, scholarships, competitions, hackathons and events from **14+ live sources** into one feed, ranks them per profile with a transparent scoring engine, and **reminds you before every deadline**.
+
+- **Live aggregation pipeline** — 14 source adapters fetched server-side, cached, deduped (213+ opportunities on first scan) with `Promise.allSettled` so one failure never sinks the run.
+- **Dual-LLM AI layer** — Groq (Llama 3.3) → Gemini 2.5 Flash failover powering summaries, match explanations, resume analysis, NL search and weekly digests, all response-cached.
+- **Transparent ranking** — a deterministic weighted recommender with a free *"why this matched you"* explanation on every card.
+- **Multi-channel deadline nudges** — Web Push (VAPID), email (Resend) and one-tap `.ics` / Google Calendar.
+- `Next.js 16` · `React 19` · `TypeScript` · `Tailwind v4` · `Firebase Auth/Firestore` · `Zustand` · `Framer Motion`
+
+### 🧠 [MarketMind](https://github.com/ChaitanyaGidwani/MarketMind)
+
+A **multi-agent AI marketing platform** with **on-chain funding & settlement** — an orchestrator negotiates with specialized agents (content, ads, email, SEO, analytics) that bid, get budget-allocated, and run in parallel with live streaming, gated end-to-end by a Solidity smart contract.
+
+- **On-chain budget control** — a `CampaignBudget.sol` contract (Solidity 0.8.20 + OpenZeppelin) enforces a funding gate before any campaign starts, settles ROI on completion, and refunds unspent funds. Deployable to a local Hardhat node or **Sepolia testnet**, with a full Hardhat unit-test + E2E smoke-test suite.
+- **Agent orchestration** — bid scoring, budget allocation, a re-negotiation loop (max 3 rounds) and a 110% spend guard.
+- **A2A-style JSON-RPC + SSE** — every agent streams real-time progress to a live dashboard.
+- **7 microservices** behind a JSON-RPC hub, containerized end-to-end.
+- `Solidity 0.8.20` · `Hardhat` · `Ethers.js v5` · `OpenZeppelin` · `Python 3.12` · `FastAPI` · `React + Vite` · `Docker Compose` · `Groq`
+
+### 👁️ [Retina-AI](https://github.com/ChaitanyaGidwani/Retina-AI)
+
+An AI project exploring **retinal / medical-image intelligence**. *(Add a one-line description + stack on the repo's About section and it'll auto-surface here.)*
+
+<!-- ===================== TECH STACK ===================== -->
+## 🛠️ Tech Stack
+
+<div align="center">
+
+**Languages**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+
+**Backend & Data**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+**AI / LLM**
+
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![LLM Orchestration](https://img.shields.io/badge/LLM_Orchestration-1C3C3C?style=for-the-badge&logo=openai&logoColor=white)
+
+**Blockchain / Web3**
+
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=hardhat&logoColor=black)
+![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethers&logoColor=white)
+![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=for-the-badge&logo=openzeppelin&logoColor=white)
+
+</div>
 
 <!-- ===================== GITHUB STATS ===================== -->
 ## 📊 GitHub Analytics
@@ -113,7 +165,7 @@ open_to:    Collaboration • Open source • Interesting problems
 
 <div align="center">
 
-I'm always up for a good conversation — collaboration, open source, or just trading ideas.
+I'm always up for a good conversation — collaboration, AI/agent projects, or trading ideas.
 
 <a href="https://www.linkedin.com/in/chaitanya-gidwani"><img src="https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="https://orcid.org/0009-0005-7429-611X"><img src="https://img.shields.io/badge/Read_my-Research-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
