@@ -58,18 +58,12 @@ mindset:   Ship real, production-shaped software — then iterate in public.
 
 <div align="center">
 
-<a href="https://github.com/ChaitanyaGidwani/opportunity-radar">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ChaitanyaGidwani&repo=opportunity-radar&theme=tokyonight&hide_border=true" alt="opportunity-radar" />
-</a>
-<a href="https://github.com/ChaitanyaGidwani/MarketMind">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ChaitanyaGidwani&repo=MarketMind&theme=tokyonight&hide_border=true" alt="MarketMind" />
-</a>
-<a href="https://github.com/ChaitanyaGidwani/Retina-AI">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ChaitanyaGidwani&repo=Retina-AI&theme=tokyonight&hide_border=true" alt="Retina-AI" />
-</a>
-<a href="https://github.com/ChaitanyaGidwani/NCCR-Admin-Portal">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ChaitanyaGidwani&repo=NCCR-Admin-Portal&theme=tokyonight&hide_border=true" alt="NCCR-Admin-Portal" />
-</a>
+| Project | Focus | Core Stack |
+| :--- | :--- | :--- |
+| **[🛰️ Opportunity Radar](https://github.com/ChaitanyaGidwani/opportunity-radar)** · [live ↗](https://opportunity-radar-theta.vercel.app) | AI opportunity aggregator + deadline engine | `Next.js` `TypeScript` `Firebase` `Groq/Gemini` |
+| **[🧠 MarketMind](https://github.com/ChaitanyaGidwani/MarketMind)** | Multi-agent marketing platform, on-chain settlement | `Solidity` `Hardhat` `FastAPI` `React` `Groq` |
+| **[👁️ Retina-AI](https://github.com/ChaitanyaGidwani/Retina-AI)** | Retinal / medical-image AI | `Python` `AI/ML` |
+| **[🗂️ NCCR Admin Portal](https://github.com/ChaitanyaGidwani/NCCR-Admin-Portal)** | Operations admin dashboard | `HTML` `JavaScript` `CSS` |
 
 </div>
 
