@@ -44,3 +44,219 @@ role:      AI & Web3 Builder · Full-Stack Engineer
 building:  LLM agents, multi-agent systems & on-chain dApps
 stack:     Next.js · React · TypeScript · Python · FastAPI · Solidity · LLMs
 mindset:   Ship real, production-shaped software — then iterate in public.
+```
+
+- 🤖 I build **AI systems that actually ship** — multi-agent orchestrators, adaptive interview agents, real-time voice AI, and production recruitment platforms that held up under real traffic.
+- ⛓️ I take products **on-chain** too — from credit-scored lending with EIP-712 signed oracles (Karma) to institutional dark pools on iExec Nox (Shadowx) and on-chain campaign settlement (MarketMind).
+- 🧩 Comfortable end-to-end: **Next.js/React** on the front, **Python/FastAPI** on the back, **Redis/Postgres/Docker** underneath, and **Solidity/Hardhat** on-chain.
+- 🔬 Researcher's rigor, builder's speed — indexed on [ORCID](https://orcid.org/0009-0005-7429-611X), obsessed with transparent, explainable, verifiable systems.
+- 🏆 **Hackathon-tested**: Grand Prix (F1 strategy AI), Smart India Hackathon 2026 (PYROSCOPE), EchoSphere 2026 (Closer), HackOnVibe (LaunchCopilot), and more.
+- 💬 Ask me about LLM orchestration, agent architectures, verifiable AI, or turning a rough idea into a live product.
+
+<!-- ===================== FEATURED PROJECTS ===================== -->
+## 🚀 Featured Projects
+
+<div align="center">
+
+| Project | Focus | Core Stack |
+| :--- | :--- | :--- |
+| **[🎓 Technovation Recruitment Portal](https://github.com/ChaitanyaGidwani/Technovation)** | Production recruitment portal — ~500 users, 300+ registrations | `Next.js` `TypeScript` `Firebase` `Vercel` |
+| **[🎙️ Closer](https://github.com/ChaitanyaGidwani/Closer)** | Real-time voice AI sales agent with adaptive memory | `Agora` `FastAPI` `Next.js` `Groq/Gemini` |
+| **[💳 Karma](https://github.com/ChaitanyaGidwani/Karma)** | Credit-scored lending on Ethereum with EIP-712 oracles | `Solidity` `sklearn` `FastAPI` `Next.js` |
+| **[👁️ Shadowx](https://github.com/ChaitanyaGidwani/Shadowx)** | Institutional confidential dark pool on Ethereum | `iExec Nox` `TypeScript` `Intel TDX` |
+| **[🛰️ ARGUS](https://github.com/ChaitanyaGidwani/ARGUS)** | AI opportunity aggregator + deadline engine | `Next.js` `TypeScript` `Firebase` `Groq/Gemini` |
+| **[📊 DataSage](https://github.com/ChaitanyaGidwani/DataSage)** | Multi-agent insight discovery with debate & retrieval | `Python` `Multi-Agent` `RAG` |
+| **[🛰️ PYROSCOPE](https://github.com/ChaitanyaGidwani/PYROSCOPE)** | Satellite-based industrial incident alerting | `NASA FIRMS` `LightGBM` `FastAPI` `Deck.gl` |
+| **[🏎️ F1](https://github.com/ChaitanyaGidwani/F1)** | Real-time track-condition classifier & tyre strategist | `ViT` `FastAPI` `CLIP` |
+| **[🚀 LaunchCopilot](https://github.com/ChaitanyaGidwani/LaunchCopilot)** | App launch automation across 5 channels | `Next.js` `TypeScript` `Reddit/X/LinkedIn APIs` |
+| **[🧠 MarketMind](https://github.com/ChaitanyaGidwani/MarketMind)** | Multi-agent marketing platform with on-chain settlement | `Solidity` `Hardhat` `FastAPI` `React` `Groq` |
+| **[🗂️ MindSift](https://github.com/ChaitanyaGidwani/MindSift)** | Adaptive AI technical interview agent | `FastAPI` `Google Gemini` `Heuristic Engine` |
+
+</div>
+
+### 🎓 [Technovation Recruitment Portal](https://github.com/ChaitanyaGidwani/Technovation) &nbsp;·&nbsp; *Production recruitment at real scale*
+
+A full recruitment platform built for **Technovation's induction drive** — not a demo, a live product used by real applicants. It handled the load of **almost 500 users** and converted **300+ registered candidates** during the active recruitment window, with admin tooling to track and manage every application.
+
+- **Production-proven under real load** — served nearly **500 users** and processed **300+ registered users** without downtime during a time-bound recruitment drive.
+- **Complete candidate funnel** — landing page, domain/role selection, application capture, validation, confirmation, and status communication.
+- **Admin command center** — live registration metrics, applicant search/filter, CSV export, status updates, and duplicate/abuse checks.
+- **Reliability choices** — server-side validation, idempotent registration handling, managed auth/database, responsive mobile-first UI, and Vercel deployment.
+- **Built to learn from traffic** — funnel analytics, source tracking, and registration conversion visibility to improve the next drive.
+- `Next.js` · `TypeScript` · `Tailwind CSS` · `Firebase` · `Vercel`
+
+### 🎙️ [Closer](https://github.com/ChaitanyaGidwani/Closer) &nbsp;·&nbsp; *Real-Time Voice AI Sales Agent*
+
+**A real-time voice AI sales agent that remembers, adapts, and acts.** Built on the **Agora Conversational AI Engine** for EchoSphere 2026 (KNOTiC × Agora), problem statement PS21.
+
+- **Deal-as-a-living-state model** — behind every conversation sits a structured `DealCard` that fills itself in as you speak. After each utterance, a qualification score and pipeline stage are recomputed from explicit rules, and **the system prompt is rebuilt from scratch**. The agent at minute ten is not the agent at minute one.
+- **Deterministic, explainable scoring** — qualification scores are arithmetic, not model judgement. Weights sum to 100, making them reproducible, debuggable, and explainable to a sales lead.
+- **Full requirement coverage** (PS21) — natural turn-taking, qualification, memory, objection handling, product/pricing retrieval (pgvector), CRM/calendar integration (HubSpot v3, Cal.com v2), and human escalation with context.
+- `Agora` · `FastAPI` · `Next.js 14` · `TypeScript` · `Redis` · `Postgres/pgvector` · `Groq` · `Gemini`
+
+### 💳 [Karma](https://github.com/ChaitanyaGidwani/Karma) &nbsp;·&nbsp; *Credit-Scored Lending on Ethereum*
+
+Credit-scored lending where a wallet's public repayment history is scored by a gradient-boosted model, and the contract prices collateral requirements from that score — on a line from **150% at the bottom to 110% at the top**.
+
+- **Verifiable AI on-chain** — the `ScoreOracle` recovers an **ECDSA signature** over `(wallet, score, modelVersion, featureHash, expiry, nonce)`, bound by **EIP-712** to the chain ID and oracle address, and reverts on anything not signed by a registered model signer. There is **no owner override, no default score, and no branch that prices a loan when the oracle call reverts**.
+- **104 Solidity tests passing**, model pipeline with **AUC 0.911**, signer service with cross-language test against the contract, and a Next.js dashboard with verification panel.
+- **Honest about its data** — the model is trained on synthetic bootstrap data; the real Dune query for Aave v3 is documented but has never been executed. Every metric in the repo describes a simulation, and the pipeline is built so that fact cannot be lost.
+- `Solidity` · `Hardhat` · `EIP-712` · `sklearn` · `FastAPI` · `Next.js` · `wagmi/viem`
+
+### 👁️ [Shadowx](https://github.com/ChaitanyaGidwani/Shadowx)
+
+**Institutional confidential dark pool for ERC-20 spot pairs on Ethereum Sepolia**, built on **iExec Nox (Intel TDX)**. Enables private, high-volume trading with pre-trade transparency maintained through hardware-based trusted execution environments.
+
+- `TypeScript` · `iExec Nox` · `Intel TDX` · `Ethereum Sepolia`
+
+### 🛰️ [ARGUS](https://github.com/ChaitanyaGidwani/ARGUS) &nbsp;·&nbsp; *Design Opportunity Radar App*
+
+A premium, interactive web application for student developers to discover, track, and manage competitive opportunities (hackathons, bounties, internships, certifications) across blockchain, AI/ML, DevOps, and cloud.
+
+- **Ambient glassmorphic UI** — responsive dark/light modes with glowing backdrops, custom grids, and premium gradients.
+- **Radar dashboard** — real-time prioritization by urgency (<24h, <72h), with quick-save and deadline reminders.
+- **Dynamic onboarding** — interactive domain selection that pre-filters your feed.
+- `React 18` · `TypeScript` · `Vite 6` · `Tailwind v4` · `Lucide React`
+
+### 📊 [DataSage](https://github.com/ChaitanyaGidwani/DataSage)
+
+**Multi-agent collaboration for insight discovery** with external knowledge retrieval, multi-role debating, and multi-path reasoning. Uses an iterative QA loop across four core modules to systematically generate high-quality insights.
+
+- `Python` · `Multi-Agent` · `RAG` · `Multi-Path Reasoning`
+
+### 🛰️ [PYROSCOPE](https://github.com/ChaitanyaGidwani/PYROSCOPE) &nbsp;·&nbsp; *Space-Based Industrial Activity Monitoring*
+
+**Team Ethos Engineers · Smart India Hackathon 2026 (internal round prototype).** Ingests satellite thermal-anomaly data over an industrial corridor, learns what *routine* looks like for every individual site, and raises an alert only when a site departs from its own baseline in a way that looks like an accident.
+
+- **The hard problem** — a gas flare burning at 15 MW every night for a decade and a smelter breach are both "hot"; only one is an emergency. Every alert carries its reasoning: which engine fired, which threshold was crossed, what the observed value was, and what the site's baseline was.
+- **Five-stage pipeline**: ingestion & context fusion (NASA FIRMS + OSM + Sentinel-2/5P) → geospatial storage → analytical core (ST-DBSCAN registry, LightGBM classifier, MAD z-score anomaly) → FastAPI serving layer → decision GIS dashboard (MapLibre GL JS + Deck.gl).
+- **Runs fully offline** — no API keys, no network. `make demo` works on a fresh clone and regenerates the dataset, trains the model, and builds the dashboard in ~10 seconds.
+- `NASA FIRMS` · `Sentinel-2/5P` · `ST-DBSCAN` · `LightGBM` · `FastAPI` · `MapLibre GL JS` · `Deck.gl`
+
+### 🏎️ [F1](https://github.com/ChaitanyaGidwani/F1) &nbsp;·&nbsp; *Weather Whiplash — Track Condition Classifier*
+
+Built for the **Grand Prix hackathon** (AI in Racing Strategy & Decision-Making, problem statement 2). Reads a live camera, video, or folder of frames from a trackside or onboard view, classifies the racing surface, tracks whether conditions are improving or worsening, and turns that into a tyre call.
+
+- **The design split** — a model answers "how wet is it now" (Dry/Damp/Wet) from a single frame, and a separate, model-free trend layer answers "which way is it going" (Drying) by requiring both a least-squares slope and a median difference to agree. This stops classifier flicker from reading as a weather event.
+- **Fully offline serving** — fine-tuned ViT loaded in-process at startup; falls back to CLIP zero-shot if weights are missing.
+- `ViT` · `CLIP` · `FastAPI` · `Python`
+
+### 🚀 [LaunchCopilot](https://github.com/ChaitanyaGidwani/LaunchCopilot)
+
+**Ship the app. We ship the launch.** Paste your App Store or Play Store link; LaunchCopilot reads your listing, writes platform-native launch copy for five channels, schedules it, and **publishes real posts** to Reddit, Telegram, X, LinkedIn, and Discord automatically.
+
+- **Built to one rule after HackOnVibe 2026-07**: *if a judge cannot click it on the live URL, it does not exist.* Every feature is verifiable on the live deployment.
+- **LaunchLink** — per-channel tracked links with server-recorded clicks and device routing. **Connect Studio** — encrypted credentials, testable connections. **Launch Wall** — a real public channel needing zero accounts. **Optimizer** — runs on measured clicks, names a diagnosis, cites numbers, states a prediction.
+- **Honest about limits** — installs are never estimated without an SDK; bot traffic is never counted.
+- `Next.js` · `TypeScript` · `Reddit/Telegram/X/LinkedIn/Discord APIs` · `Vercel`
+
+### 🧠 [MarketMind](https://github.com/ChaitanyaGidwani/MarketMind)
+
+A **multi-agent AI marketing platform** with **on-chain funding & settlement** — an orchestrator negotiates with specialized agents (content, ads, email, SEO, analytics) that bid, get budget-allocated, and run in parallel with live streaming, gated end-to-end by a Solidity smart contract.
+
+- **On-chain budget control** — `CampaignBudget.sol` (Solidity 0.8.20 + OpenZeppelin) enforces a funding gate before any campaign starts, settles ROI on completion, and refunds unspent funds.
+- **Agent orchestration** — bid scoring, budget allocation, a re-negotiation loop (max 3 rounds), and a 110% spend guard.
+- **A2A-style JSON-RPC + SSE** — every agent streams real-time progress to a live dashboard. **7 microservices** behind a JSON-RPC hub, containerized end-to-end.
+- `Solidity 0.8.20` · `Hardhat` · `Ethers.js v5` · `OpenZeppelin` · `Python 3.12` · `FastAPI` · `React + Vite` · `Docker Compose` · `Groq`
+
+### 🗂️ [MindSift](https://github.com/ChaitanyaGidwani/MindSift) &nbsp;·&nbsp; *AI Interview Agent*
+
+Conducts a **personalised, adaptive technical interview** based on what a candidate actually did during the 31-day AI Cohort — then hands back a structured debrief. The demo runs on a Render free instance and falls back to a curriculum-driven heuristic engine when no Gemini key is present, so the end-to-end flow never depends on credentials.
+
+- **Adaptive conversation** — follow-ups when an answer is hand-wavy, new topics when it isn't.
+- **Structured feedback** — summary, strengths, gaps, and next steps, replayed idempotently on retry.
+- `FastAPI` · `Google Gemini` (`gemini-3.5-flash`) · `Heuristic Engine` · `Python`
+
+<!-- ===================== TECH STACK ===================== -->
+## 🛠️ Tech Stack
+
+<div align="center">
+
+**Languages**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+
+**Backend & Data**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+**AI / LLM & Agents**
+
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Multi-Agent](https://img.shields.io/badge/Multi--Agent_Systems-1C3C3C?style=for-the-badge&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG_%26_Vector_Search-4A90D9?style=for-the-badge&logo=databricks&logoColor=white)
+
+**Blockchain / Web3**
+
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=hardhat&logoColor=black)
+![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethers&logoColor=white)
+![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=for-the-badge&logo=openzeppelin&logoColor=white)
+![iExec](https://img.shields.io/badge/iExec_Nox-000000?style=for-the-badge&logo=iexec&logoColor=white)
+
+</div>
+
+<!-- ===================== GITHUB STATS ===================== -->
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=ChaitanyaGidwani&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChaitanyaGidwani&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=ChaitanyaGidwani&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=ChaitanyaGidwani&theme=tokyonight&no-frame=true&column=7&margin-w=8" alt="Trophies" />
+
+</div>
+
+<!-- ===================== ACTIVITY GRAPH ===================== -->
+## 📈 Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ChaitanyaGidwani&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" width="95%" />
+
+</div>
+
+<!-- ===================== CONNECT ===================== -->
+## 🤝 Let's Connect
+
+<div align="center">
+
+I'm always up for a good conversation — collaboration, AI/agent projects, or trading ideas.
+
+<a href="https://www.linkedin.com/in/chaitanya-gidwani"><img src="https://img.shields.io/badge/Connect_on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://orcid.org/0009-0005-7429-611X"><img src="https://img.shields.io/badge/Read_my-Research-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
+
+<br/><br/>
+
+<i>“Ship it, learn, repeat.”</i>
+
+</div>
+
+<!-- Made with care — edit freely to keep it truly yours. -->
